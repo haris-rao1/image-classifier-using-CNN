@@ -57,7 +57,7 @@ def run_experiment(epochs, opt_name, lr, batch_size, device):
 
 def main():
 
-    organize_data();
+    # organize_data();
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Using device: {device}")
 
